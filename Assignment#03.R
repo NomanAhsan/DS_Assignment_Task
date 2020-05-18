@@ -1,3 +1,4 @@
+#Installing Libraries
 install.packages("dplyr")
 install.packages("Hmisc")
 install.packages("corrplot")
@@ -11,7 +12,7 @@ getwd()
 usedcars <- read.csv("vehicles_small.csv")
 usedcars
 dim(usedcars)                 
-head(usedcars,4L)             
+head(usedcars,4L)           
 colnames(usedcars)            
 
 lengths(lapply(usedcars, unique))
